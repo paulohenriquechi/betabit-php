@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    width: 66%;
+    margin: 0 auto;
+    padding: 2em;
+    border: 1px solid black;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+}
+form{
+    width: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+label, input{
+    padding: 5px 0;
+    display: flex;
+}
+button{
+    height: 30px;
+}
+button:hover{
+    cursor: pointer;
+}
+.erro{
+    color: red;
+}
+input[class=invalid]{
+    border: 1px solid red;
+}
